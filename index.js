@@ -49,7 +49,7 @@ function addList(){
     done_button.setAttribute('value',`${Date.now()}`);
     done_button.setAttribute('onclick','completedTask(this.value)');
     done_button.innerText = 'Mark as Done';
-    done_button.setAttribute('style','font-size:15px; cursor:pointer; height:15px; border-radius:5px;');
+    done_button.setAttribute('style','font-size:15px; cursor:pointer; height:18px; border-radius:10px;');
 
     List_of_item.appendChild(done_button);
 
